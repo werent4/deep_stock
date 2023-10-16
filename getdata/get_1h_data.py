@@ -21,7 +21,7 @@ def get_data(symbol):
 def process(symbol):
     data = get_data(symbol)
     if data is not None:
-        output_dir = 'data\data_raw_60d_1d'
+        output_dir = 'datasets\data_raw_60d_1d'
         os.makedirs(output_dir, exist_ok=True)
         output_path = os.path.join(output_dir, f'{symbol}.csv')
         data.to_csv(output_path)
