@@ -11,7 +11,8 @@ stocks_of_interest = []
 def process_symbol(symbol):
     try:
         temp_df = get_data(symbol)
-        stocks_of_interest_temp = find_interest(-0.09, temp_df, symbol, [])
+        stocks_of_interest_temp = find_interest(growth = False,amplitude = -0.09, df = temp_df,
+                                                symbol = symbol, stocks_of_interest = [])
         return stocks_of_interest_temp
     except Exception as e:
         # Print the error
@@ -33,6 +34,6 @@ if __name__ == '__main__':
         stocks_of_interest.extend(temp_list)
 
     # Save the combined results in 'data.picle' and 'stocks_of_interest'
-    save_data_pickle('009_min_fall_60d_13_10_2023.pickle', stocks_of_interest)
+    save_data_pickle('test_009_min_fall_60d_13_10_2023.pickle', stocks_of_interest)
 
 print(stocks_of_interest)
