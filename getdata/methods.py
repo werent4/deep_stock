@@ -24,21 +24,34 @@ def get_data(symbol):
     )
     return temp_df
 
-def find_interest(amplitude,df,symbol,stocks_of_interest):
+def find_interest(growth,amplitude,df,symbol,stocks_of_interest):
+    """ use 'growth' to indicate the move of interest: growth = True to indicate positive change
+    (use positive values of 'amplitude', for example, 0.09),
+    growth = False to indicate negative change, (use negative values of 'amplitude', for example, 0.09)"""
     open_list = df["Open"].to_list()
     close_list = df["Close"].to_list()
     date_list = df.index.to_list()
     stocks_of_interest = stocks_of_interest[30:]
     length = len(open_list)
     #(B / A) — 1 = C
-    smallest_diff = [1,1,1]
-    for i in range(length-2):
-        diff = ((open_list[i+1])/close_list[i]) - 1
-        if diff < smallest_diff[1]:
-            smallest_diff = [symbol,diff,date_list[i+1]]
-    if smallest_diff[1] < amplitude:
-        stocks_of_interest.append(smallest_diff)
-        print(smallest_diff)
+    if growth == False:
+        highest_amplitude = [1, 1, 1]
+        for i in range(length - 2):
+            diff = ((open_list[i + 1]) / close_list[i]) - 1
+            if diff < highest_amplitude[1]:
+                highest_amplitude = [symbol, diff, date_list[i + 1]]
+        if highest_amplitude[1] < amplitude:
+            stocks_of_interest.append(highest_amplitude)
+            print(highest_amplitude)
+    else:
+        highest_amplitude = [1, -1, 1]
+        for i in range(length - 2):
+            diff = ((open_list[i + 1]) / close_list[i]) - 1
+            if diff > highest_amplitude[1]:
+                highest_amplitude = [symbol, diff, date_list[i + 1]]
+        if highest_amplitude[1] > amplitude:
+            stocks_of_interest.append(highest_amplitude)
+            print(highest_amplitude)
 
     return stocks_of_interest
 
