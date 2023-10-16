@@ -26,7 +26,7 @@ def process(symbol):
         output_path = os.path.join(output_dir, f'{symbol}.csv')
         data.to_csv(output_path)
 
-symbol_list = read_data_pickle('009_min_fall_60d_13_10_2013.pickle')
+symbol_list = read_data_pickle('009_min_fall_60d_13_10_2023.pickle')
 symbol_list = [i[0] for i in symbol_list]
 
 if __name__ == '__main__':
