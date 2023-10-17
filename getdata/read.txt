@@ -1,0 +1,4 @@
+{'title': 'Should You Add Monster Beverage Corp (MNST) Stock to Your Portfolio Monday? - InvestorsObserver',
+ 'description': 'Should You Add Monster Beverage Corp (MNST) Stock to Your Portfolio Monday?  InvestorsObserver',
+ 'published date': 'Mon, 16 Oct 2023 19:18:31 GMT',
+ 'url': 'https://consent.google.com/m?continue=https://news.google.com/rss/articles/CBMifGh0dHBzOi8vd3d3LmludmVzdG9yc29ic2VydmVyLmNvbS9uZXdzL3N0b2NrLXVwZGF0ZS9zaG91bGQteW91LWFkZC1tb25zdGVyLWJldmVyYWdlLWNvcnAtbW5zdC1zdG9jay10by15b3VyLXBvcnRmb2xpby1tb25kYXnSAYABaHR0cHM6Ly93d3cuaW52ZXN0b3Jzb2JzZXJ2ZXIuY29tL25ld3Mvc3RvY2stdXBkYXRlL2FtcC9zaG91bGQteW91LWFkZC1tb25zdGVyLWJldmVyYWdlLWNvcnAtbW5zdC1zdG9jay10by15b3VyLXBvcnRmb2xpby1tb25kYXk?oc%3D5&gl=LT&m=0&pc=n&cm=2&hl=en-US&src=1', 'publisher': {'href': 'https://www.investorsobserver.com', 'title': 'InvestorsObserver'}}
