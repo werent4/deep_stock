@@ -1,8 +1,5 @@
 import pandas as pd
 import yfinance as yf
-import yahoofinancials
-from yahoofinancials import YahooFinancials
-import math
 import pickle
 
 def save_data_pickle(filename,data):
