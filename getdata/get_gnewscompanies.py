@@ -30,7 +30,8 @@ def save_news(list_of_comp_names, save_path):
         if c == 10:
             break
 
-
+#!important
+# need adjustment for ur own
 path_comps = r'com_names\009_min_fall_60d_13_10_2023.pickle'
 save_path = r'C:\Users\werent4\Desktop\deep_stock\datasets\comp_news'
 companies = get_comp_names(path_comps)
