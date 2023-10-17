@@ -7,3 +7,8 @@ description will be added later
 * **getdata**
   
   folder getdata stores scripts to obtain all necessary data for training the model.
+
+## Notes
+* **#!important**
+  
+    to mark important points in the code
