@@ -34,6 +34,6 @@ if __name__ == '__main__':
         stocks_of_interest.extend(temp_list)
 
     # Save the combined results in 'data.picle' and 'stocks_of_interest'
-    save_data_pickle('test_009_min_fall_60d_13_10_2023.pickle', stocks_of_interest)
+    save_data_pickle('com_names\\test_009_min_fall_60d_13_10_2023.pickle', stocks_of_interest)
 
 print(stocks_of_interest)
