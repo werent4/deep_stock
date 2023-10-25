@@ -159,7 +159,6 @@ sectors = {
     'Miscellaneous': 12
 }
 
-
 def process_field_dict(dic):
     """Firstly name, then id in dic.
     For example, "Oil & Gas": 2, "Oil & Gas" - name, 2 - id"""
