@@ -1,0 +1,143 @@
+,name,id
+0,Retail,1
+1,Oil & Gas,2
+2,Home Furnishings,3
+3,Transportation Services,4
+4,Food Chains,5
+5,Computer Software,6
+6,Books,7
+7,Military/Government/Technical,8
+8,Agricultural Chemicals,9
+9,Electric Utilities,10
+10,Banks,11
+11,Other Metals and Minerals,12
+12,Shoe Manufacturing,13
+13,Consumer Specialties,14
+14,Services-Misc. Amusement & Recreation,15
+15,Medical Specialties,16
+16,Natural Gas Distribution,17
+17,Hotels/Resorts,18
+18,Auto & Home Supply Stores,19
+19,Packaged Foods,20
+20,Paper,21
+21,Consumer Electronics/Appliances,22
+22,Environmental Services,23
+23,Electrical Products,24
+24,Real Estate Investment Trusts,25
+25,Water Supply,26
+26,Rental/Leasing Companies,27
+27,Investment Bankers/Brokers/Service,28
+28,Integrated Oil Companies,29
+29,Textiles,30
+30,Automotive Aftermarket,31
+31,Electronics Distribution,32
+32,Hospital/Nursing Management,33
+33,Package Goods/Cosmetics,34
+34,Forest Products,35
+35,Marine Transportation,36
+36,Meat/Poultry/Fish,37
+37,General Building Contractors,38
+38,Ophthalmic Goods,39
+39,Farming/Seeds/Milling,40
+40,Professional and Commercial Equipment,41
+41,Medicinal Chemicals and Botanical Products,42
+42,Advertising,43
+43,Movies/Entertainment,44
+44,Specialty Insurers,45
+45,Engineering & Construction,46
+46,Trusts Except Educational Religious and Charitable,47
+47,Savings Institutions,48
+48,Electronic Components,49
+49,Broadcasting,50
+50,Metal Fabrications,51
+51,Tools/Hardware,52
+52,Water Sewer Pipeline Comm & Power Line Construction,53
+53,Major Chemicals,54
+54,Beverages,55
+55,Biotechnology,56
+56,Radio And Television Broadcasting And Communications Equipment,57
+57,Precision Instruments,58
+58,Investment Managers,59
+59,Misc Health and Biotechnology Services,60
+60,Durable Goods,61
+61,Homebuilding,62
+62,Mining & Quarrying of Nonmetallic Minerals,63
+63,Property-Casualty Insurers,64
+64,Educational Services,65
+65,Specialty Chemicals,66
+66,Catalog/Specialty Distribution,67
+67,Coal Mining,68
+68,Miscellaneous Manufacturing Industries,69
+69,Finance: Consumer Services,70
+70,Commercial Banks,71
+71,Newspapers/Magazines,72
+72,Medical/Dental Instruments,73
+73,Semiconductors,74
+74,Plastic Products,75
+75,Pollution Control Equipment,76
+76,Aluminum,77
+77,Clothing/Shoe/Accessory Stores,78
+78,Metal Mining,79
+79,Life Insurance,80
+80,Restaurants,81
+81,Computer Software: Prepackaged Software,82
+82,Motor Vehicles,83
+83,Auto Parts,84
+84,Consumer Electronics/Video Chains,85
+85,Biotechnology: Pharmaceutical Preparations,86
+86,Industrial Specialties,87
+87,Containers/Packaging,88
+88,Telecommunications Equipment,89
+89,Multi-Sector Companies,90
+90,Medical/Nursing Services,91
+91,Office Equipment/Supplies/Services,92
+92,Pharmaceuticals and Biotechnology,93
+93,Wholesale Distributors,94
+94,Building Operators,95
+95,Publishing,96
+96,Construction/Ag Equipment/Trucks,97
+97,Biotechnology: Biological Products,98
+98,Accident & Health Insurance,99
+99,Finance/Investors Services,100
+100,Building Products,101
+101,Other Consumer Services,102
+102,Diversified Electronic Products,103
+103,Apparel,104
+104,Food Distributors,105
+105,Building Materials,106
+106,Industrial Machinery/Components,107
+107,Finance Companies,108
+108,Specialty Foods,109
+109,Biotechnology: In Vitro & In Vivo Diagnostic Substances,110
+110,Diversified Commercial Services,111
+111,Oil/Gas Transmission,112
+112,Medical Electronics,113
+113,Ordnance And Accessories,114
+114,Precious Metals,115
+115,Aerospace,116
+116,Professional Services,117
+117,Biotechnology: Electromedical & Electrotherapeutic Apparatus,118
+118,Department/Specialty Retail Stores,119
+119,Computer Communications Equipment,120
+120,Other Pharmaceuticals,121
+121,Assisted Living Services,122
+122,Recreational Games/Products/Toys,123
+123,Air Freight/Delivery Services,124
+124,Cable & Other Pay Television Services,125
+125,Computer Peripheral Equipment,126
+126,Paints/Coatings,127
+127,Oilfield Services/Equipment,128
+128,Blank Checks,129
+129,Managed Health Care,130
+130,Business Services,131
+131,Tobacco,132
+132,Auto Manufacturing,133
+133,EDP Services,134
+134,Railroads,135
+135,Power Generation,136
+136,Steel/Iron Ore,137
+137,Retail: Building Materials,138
+138,Biotechnology: Laboratory Analytical Instruments,139
+139,Other Specialty Stores,140
+140,Oil Refining/Marketing,141
+141,Fluid Controls,142
