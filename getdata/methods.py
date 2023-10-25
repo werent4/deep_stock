@@ -2,10 +2,12 @@ import pandas as pd
 import yfinance as yf
 import pickle
 
+# func to save data to pickle files
 def save_data_pickle(filename,data):
     with open(filename, 'wb') as handle:
         pickle.dump(data, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
+# func to get data from  pickle files
 def read_data_pickle(filename):
     with open(filename, 'rb') as handle:
         data = pickle.load(handle)
@@ -51,4 +53,3 @@ def find_interest(growth,amplitude,df,symbol,stocks_of_interest):
             print(highest_amplitude)
 
     return stocks_of_interest
-
