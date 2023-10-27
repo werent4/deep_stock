@@ -13,6 +13,9 @@ comanies_file_path = r'C:\Users\werent4\Desktop\deep_stock\datasets\data_raw_60d
 full_path_list = get_list_companies(comanies_file_path)
 
 def process_company_date(company_date):
+    '''
+    Function processes and retrieves news data for a specific company and date, saving it to a JSON file. 
+    '''
     path, date = company_date # extract path to csv file and date from file
     name = get_comp_name(path) # get name based on csv file name
     directory_path = os.path.join(path_to_news_folder, name) # create directory path for specific company
