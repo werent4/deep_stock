@@ -2,7 +2,8 @@ import pandas as pd
 import openai
 import ast
 
-api_list = ['org-0E0VpzxpSCbE8gyULAIeXbJc', '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']
+#! change before use
+api_list = ['org-', 'sk-']
 
 # Read the CSV file into a DataFrame
 df = pd.read_csv('nasdaq_screener_1697135861885.csv')
@@ -58,4 +59,4 @@ sectors = {row['name']: row['id'] for index, row in sectors_df.iterrows()}
 industries = {row['name']: row['id'] for index, row in industries_df.iterrows()}
 
 temp = get_company_general_info("AAC", sectors, industries)
-#print(temp)
+print(temp)
