@@ -4,6 +4,8 @@ from gnews import GNews
 from datetime import date, timedelta
 import json
 import csv
+from langdetect import detect
+
 
 def save_data_json(output_json_file, news):
     '''Funct to save data to json file'''
@@ -42,15 +44,19 @@ def get_dates(path_csv):
 
 def get_news(comp_name, start_date):
     '''Func to get news for particular day
-    return all news from that day(json array) or empty array'''
+        return all news from that day(json array) or empty array'''
     end_date = start_date + timedelta(days=1)
 
-    google_news = GNews(language='en', start_date= start_date, end_date= end_date,)
+    google_news = GNews(language='en', start_date=start_date, end_date=end_date)
 
     raw_news = google_news.get_news(comp_name + ' stock')
 
     keys_to_keep = ['title', 'description', 'published date', 'url']
 
-        # Create a new list with filtered information
-    filtered_news = [{key: article[key] for key in keys_to_keep} for article in raw_news]
+    # Filter news articles by language (English) and create a new list
+    filtered_news = []
+    for article in raw_news:
+        if detect(article['title']) == "en":
+            filtered_news.append({key: article[key] for key in keys_to_keep})
+
     return filtered_news
