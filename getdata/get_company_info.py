@@ -2,8 +2,8 @@ import pandas as pd
 import openai
 import ast
 
-#! change before use
-api_list = ['org-3w0YlVDCLWkp5gMp9i4vKj3y', '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']
+#! important change before use
+api_list = ['org-', 'sk-']
 
 # Read the CSV file into a DataFrame
 df = pd.read_csv('nasdaq_screener_1697135861885.csv')
@@ -60,4 +60,5 @@ industries = {row['name']: row['id'] for index, row in industries_df.iterrows()}
 #допиствь капитализацию
 temp = get_company_general_info("AA", sectors, industries)
 print(temp)
+
 
