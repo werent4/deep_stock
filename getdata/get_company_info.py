@@ -3,7 +3,7 @@ import openai
 import ast
 
 #! change before use
-api_list = ['org-', 'sk-']
+api_list = ['org-3w0YlVDCLWkp5gMp9i4vKj3y', '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']
 
 # Read the CSV file into a DataFrame
 df = pd.read_csv('nasdaq_screener_1697135861885.csv')
@@ -57,6 +57,7 @@ sectors_df = pd.read_csv('com_names\\sectors.csv')
 industries_df = pd.read_csv('com_names\\industries.csv')
 sectors = {row['name']: row['id'] for index, row in sectors_df.iterrows()}
 industries = {row['name']: row['id'] for index, row in industries_df.iterrows()}
-
-temp = get_company_general_info("AAC", sectors, industries)
+#допиствь капитализацию
+temp = get_company_general_info("AA", sectors, industries)
 print(temp)
+
